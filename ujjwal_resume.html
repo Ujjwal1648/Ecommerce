@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal Kumar Singh - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Calibri', Arial, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+            background: white;
+            min-height: 11in;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 15px;
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            font-size: 11px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .contact-info a {
+            color: #2c5aa0;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #2c5aa0;
+            text-transform: uppercase;
+            border-bottom: 1px solid #2c5aa0;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        .education-item, .project-item {
+            margin-bottom: 12px;
+        }
+
+        .institution, .project-title {
+            font-weight: bold;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .degree, .project-tech {
+            font-size: 11px;
+            color: #666;
+            margin-bottom: 2px;
+        }
+
+        .year, .project-duration {
+            font-size: 11px;
+            color: #888;
+            float: right;
+        }
+
+        .cgpa, .percentage {
+            font-size: 11px;
+            color: #2c5aa0;
+            font-weight: 600;
+        }
+
+        .project-description {
+            font-size: 11px;
+            color: #555;
+            margin-top: 4px;
+            text-align: justify;
+        }
+
+        .project-description ul {
+            margin-left: 15px;
+            margin-top: 3px;
+        }
+
+        .project-description li {
+            margin-bottom: 2px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            font-size: 11px;
+        }
+
+        .skill-category {
+            margin-bottom: 8px;
+        }
+
+        .skill-category strong {
+            color: #2c5aa0;
+            font-size: 11px;
+        }
+
+        .skill-list {
+            color: #555;
+            margin-top: 2px;
+        }
+
+        .summary {
+            font-size: 11px;
+            color: #555;
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            .container {
+                margin: 0;
+                padding: 0.3in;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="name">UJJWAL KUMAR SINGH</div>
+            <div class="contact-info">
+                <a href="mailto:ujjwalkumarsingh753@gmail.com">ujjwalkumarsingh753@gmail.com</a> | 
+                <a href="https://www.linkedin.com/in/ujjwal-kumar-singh-141033316/">LinkedIn: ujjwal-kumar-singh-141033316</a> | 
+                <a href="https://github.com/Ujjwal1648">GitHub: Ujjwal1648</a>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <div class="summary">
+                Passionate and dedicated Computer Science student with a strong foundation in software development, web technologies, and problem-solving. Experienced in full-stack development with expertise in modern frameworks and technologies. Demonstrated ability to work on complex projects including e-commerce platforms and web applications. Strong analytical skills with a keen interest in emerging technologies and continuous learning. Seeking opportunities to contribute to innovative software solutions and grow as a professional developer.
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Education</div>
+            
+            <div class="education-item clearfix">
+                <div class="institution">Bachelor of Technology in Computer Science and Engineering</div>
+                <div class="year">2022 - 2026</div>
+                <div class="degree">Lovely Professional University, Punjab</div>
+                <div class="cgpa">CGPA: 9.24/10</div>
+            </div>
+
+            <div class="education-item clearfix">
+                <div class="institution">Intermediate (12th Grade)</div>
+                <div class="year">2022</div>
+                <div class="degree">Bihar School Examination Board</div>
+                <div class="percentage">Percentage: 77%</div>
+            </div>
+
+            <div class="education-item clearfix">
+                <div class="institution">Matriculation (10th Grade)</div>
+                <div class="year">2020</div>
+                <div class="degree">Bihar School Examination Board</div>
+                <div class="percentage">Percentage: 69%</div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div>
+                    <div class="skill-category">
+                        <strong>Programming Languages:</strong>
+                        <div class="skill-list">Java, JavaScript, Python, C++, C</div>
+                    </div>
+                    <div class="skill-category">
+                        <strong>Web Technologies:</strong>
+                        <div class="skill-list">HTML5, CSS3, React.js, Node.js, Express.js</div>
+                    </div>
+                    <div class="skill-category">
+                        <strong>Databases:</strong>
+                        <div class="skill-list">MongoDB, MySQL, PostgreSQL</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="skill-category">
+                        <strong>Frameworks & Libraries:</strong>
+                        <div class="skill-list">React, Express, Bootstrap, Tailwind CSS</div>
+                    </div>
+                    <div class="skill-category">
+                        <strong>Tools & Technologies:</strong>
+                        <div class="skill-list">Git, GitHub, VS Code, Postman, npm</div>
+                    </div>
+                    <div class="skill-category">
+                        <strong>Other Skills:</strong>
+                        <div class="skill-list">RESTful APIs, JSON, Responsive Design, Agile</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <div class="section-title">Projects</div>
+            
+            <div class="project-item clearfix">
+                <div class="project-title">Full-Stack E-commerce Platform</div>
+                <div class="project-duration">2024</div>
+                <div class="project-tech">Technologies: React.js, Node.js, Express.js, MongoDB, JWT Authentication</div>
+                <div class="project-description">
+                    Developed a comprehensive e-commerce web application with complete user and admin functionality.
+                    <ul>
+                        <li>Implemented user authentication and authorization using JWT tokens with role-based access control</li>
+                        <li>Created responsive frontend using React.js with modern UI components and state management</li>
+                        <li>Built RESTful APIs using Node.js and Express.js for product management, cart operations, and order processing</li>
+                        <li>Designed and implemented MongoDB database schema for users, products, categories, and orders</li>
+                        <li>Integrated shopping cart functionality with real-time updates and checkout process</li>
+                        <li>Developed admin dashboard for product management, order tracking, and user management</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-item clearfix">
+                <div class="project-title">Task Management Web Application</div>
+                <div class="project-duration">2024</div>
+                <div class="project-tech">Technologies: React.js, CSS3, Local Storage, JavaScript ES6+</div>
+                <div class="project-description">
+                    Built a responsive task management application for organizing and tracking daily activities.
+                    <ul>
+                        <li>Designed intuitive user interface with drag-and-drop functionality for task organization</li>
+                        <li>Implemented CRUD operations for task management with local storage persistence</li>
+                        <li>Added features like task categorization, priority levels, and due date tracking</li>
+                        <li>Created responsive design ensuring compatibility across desktop and mobile devices</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-item clearfix">
+                <div class="project-title">Weather Dashboard Application</div>
+                <div class="project-duration">2023</div>
+                <div class="project-tech">Technologies: JavaScript, HTML5, CSS3, Weather API, Chart.js</div>
+                <div class="project-description">
+                    Developed a weather monitoring application providing real-time weather information and forecasts.
+                    <ul>
+                        <li>Integrated third-party weather API for real-time weather data retrieval</li>
+                        <li>Implemented geolocation services for automatic location detection</li>
+                        <li>Created interactive charts and graphs for weather data visualization</li>
+                        <li>Added search functionality for weather information of different cities worldwide</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
